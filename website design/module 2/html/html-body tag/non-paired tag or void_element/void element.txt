@@ -1,0 +1,2 @@
+void element also called a non paired tag.
+link favicon/linkstylesheet/meta/meta description copy from head tag.
