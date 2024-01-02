@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!-- website title here -->
+    <title>Tops Career Center - Welcome to Our website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- website favicon icons here -->
+    <link rel="icon" href="images/avicon.png" type="image/x-icon">
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+            box-sizing: border-box;
+            background: url('images/bg.png') no-repeat;
+            background-size: cover;
+        }
+        #header 
+        {
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            background-color: #ECF5FB;
+        }
+        .tops-logo
+        {
+            width: 40%;
+            height: auto;
+            margin: 0;
+            padding: 5px;
+            margin-left: 30%;
+        }
+        .tops-logo img 
+        {
+            width: 60%;
+            height: auto;
+            margin-left: 20%;
+        }
+
+        #content
+        {
+            width: 70%;
+            height: auto;
+            margin: auto;
+            margin-top: 3%;
+        }
+
+        .tops-login-page
+        {
+            width: 45%;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+            background-color: #ECF5FB;
+            border: #4C92BE solid 2px;
+            border-radius: 15px;
+        }
+        .tops-login-page span 
+        {
+            color: #4C92BE;
+            font-size: 38px;
+            letter-spacing: 2px;
+        }
+        input[type="text"],input[type="password"]
+        {
+            width: 350px;
+            height: auto;
+            margin: 0;
+            padding: 12px;
+            border: none;
+            border-radius:5px;
+            border: solid 1px lightgray;
+        }
+        input[type="submit"]
+        {
+            width: 370px;
+            height: auto;
+            margin: 0;
+            color: white;
+            font-size: 18px;
+            padding: 12px;
+            border: none;
+            border-radius:5px;
+            background-color: #4C92BE;
+
+
+        }
+        .tops-login-page form
+        {
+            border: solid 0px;
+            margin-left: 8%;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- tops careercenter header start here -->
+    <section id="header">
+    <div class="tops-logo">
+        <img src="images/tops-logo.png">
+    </div>  
+    </section>
+    <!-- tops content start here -->
+    <section id="content">
+    <div class="tops-login-page">
+        <form>
+            <h1 align="center"><span>TOPS </span><br>Career Center Login</h1>
+            
+            <label>Mobile Number</label>
+            <br><br>
+            <input type="text" name="mob" placeholder="Mobile *" required>
+            <br><br>
+            <label>Password</label>
+            <br><br>
+            <input type="password" name="pass" placeholder="**********" required>
+            <br><br>
+            <b><a href="#">Forget Password</a></b>
+            <br><br>
+            <input type="submit" name="submit" value="Login">
+            
+        </form>
+    </div>
+    </section>
+
+</body>
+</html>
