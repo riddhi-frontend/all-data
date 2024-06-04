@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Filter Example</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+</head>
+<body>
+    <ul id="myList">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Cananberry</li>
+        <li>Blueberry</li>
+    </ul>
+    <button id="filterButton">Filter</button>
+    <script>
+        $("#filterButton").click(function()
+            {
+                $("#myList li").filter(function()
+                    {
+                        return $(this).text().toLowerCase().indexOf("a")!== -1;
+                    }).css("color", "green");
+            });
+    </script>
+</body>
+</html>
