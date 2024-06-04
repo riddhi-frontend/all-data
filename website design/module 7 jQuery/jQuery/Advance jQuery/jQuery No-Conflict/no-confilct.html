@@ -1,0 +1,35 @@
+<!-- 
+    The noConflict() method in jQuery is a powerful tool that helps prevent conflicts between different JavaScript libraries or frameworks that might use the same shortcut identifier (such as the $ sign).
+    A) Why Use noConflict()?
+        When you include multiple JavaScript libraries (e.g., jQuery, Angular, Backbone) in the same web page, they might all use the $ sign as a shortcut for their own functionality.
+        This can lead to conflicts where one library overwrites the $ functionality of another library.
+        The noConflict() method allows you to release the $ shortcut from jQuery, making it available for other libraries to use.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery noConflict() Demo</title>
+<script>
+// Defining the new alias for jQuery
+var $j = jQuery.noConflict();
+$j(document).ready(function(){
+    // Display an alert message when the element with ID foo is clicked
+    $j("#foo").click(function(){
+        alert("jQuery is working well with prototype.");
+    });
+});
+// Some prototype framework code
+document.observe("dom:loaded", function(){
+    // Display an alert message when the element with ID bar is clicked
+    $("bar").observe("click", function(event){
+        alert("Prototype is working well with jQuery.");
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button" id="foo">Run jQuery Code</button>
+    <button type="button" id="bar">Run Prototype Code</button>
+</body> 
+</html>
