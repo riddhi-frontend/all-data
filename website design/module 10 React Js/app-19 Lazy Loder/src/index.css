@@ -1,0 +1,365 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components{
+    .btn-1{
+        @apply border-double mt-5 border-4 text-black border-gray-950 w-48 h-16 font-bold text-2xl button hover:animate-pulse;
+    }
+} */
+body
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* header */
+#home
+{
+    width: 100%;
+    height: 800px;
+    background: url(images/bg-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+.nav ul
+{
+    margin-left: 3%;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.nav li
+{
+    display: inline-block;
+    padding: 10px 30px;
+}
+.nav a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.tittle
+{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 16%;
+}
+.tittle h1
+{
+    color: rgb(58, 64, 73);
+    overflow-y: hidden;
+    margin-top: 15% !important;
+}
+.tittle h3
+{
+    color: rgb(58, 64, 73);
+    font-weight: 600;
+    margin-left: -9% !important;
+}
+.button
+{
+    margin-left: 35%;
+    color: black;
+    margin-top: 3%;
+}
+#story
+{
+    position: relative;
+    margin-top: 50%;
+    background-color: white;
+}
+#story h1
+{
+    padding-top: 7%;
+    padding-bottom: 3%;
+    font-family: fantasy;
+}
+#story h4
+{
+    color: rgb(217, 192, 122);
+    letter-spacing: 8px !important;
+}
+#story p
+{
+    margin-top: 3%;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-bottom: 8%;
+}
+#story hr
+{
+    border: 6px solid rgb(54, 3, 3);
+    width: 3%;
+    margin: auto;
+}
+#story h2
+{
+    padding-bottom: 5%;
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+/* slider */
+#slide-container
+{
+    margin-top: -2% !important;
+}
+#wedding
+{
+    background-color: #D6BB6E;
+    height: fit-content;
+    position: relative;
+    padding-bottom: 100px;
+}
+#wedding h1
+{
+    text-align: center !important;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: monospace;
+    padding-top: 10%;
+}
+.w1
+{
+    margin-top: 4% !important;
+    margin-left: 5%;
+}
+.w1 h3
+{
+    font-size: 30px !important;
+    text-align: end;
+    font-weight: 800;
+    margin-right: 20%;
+}
+.w1 p
+{
+    text-align: end !important;
+    padding-top: 35px;
+    font-size: 18px !important;
+    margin-right: 10%;
+}
+.w2
+{
+    margin-top: 4% !important;
+    margin-left: -10%;
+}
+#wedding .w2 h3
+{
+    font-size: 30px !important;
+    text-align: center;
+    font-weight: 800;
+}
+#wedding .w2 p
+{
+    text-align: center !important;
+    padding-top: 35px;
+    font-size: 18px !important;
+}
+#wedding img
+{
+    height: 140px;
+    margin-top: 60%;
+    margin-left: 4%;
+}
+.btn-2
+{
+    border: 8px double black;
+    padding: 10px 60px;
+    color: black !important;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 44%;
+}
+.btn-2:hover
+{
+    border: 5px solid black;
+}
+#getting
+{
+    background: url(images/bg-2.jpg) no-repeat;
+    height: 800px;
+    position: relative;
+    background-size: cover;
+}
+#getting .get
+{
+    position: absolute;
+}
+#getting h1
+{
+    color: white;
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 8%;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#getting h3
+{
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    margin-top: 6%;
+    margin-left: 25%;
+}
+#getting p
+{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.btn-3
+{
+    border: none;
+    padding: 10px 50px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 50%;
+}
+.btn-3:hover
+{
+    border: 2px solid white;
+}
+/* registery */
+#registery
+{
+    background: white !important;
+    height: 820px;
+    position: relative;
+}
+#registery h1
+{
+    color: #E6C976;
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 8%;
+    margin-left: 35%;
+    font-family: monospace;
+    text-transform: uppercase;
+    position: absolute;
+}
+#registery p
+{
+    /* color: white; */
+    text-align: center;
+    margin-top: 18%;
+    margin-left: 25%;
+    font-size: 20px;
+    position: absolute;
+}
+#registery .line-1
+{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 20%;
+}
+#registery .line-1 img, #registery .line-2 img 
+{
+    height: 100px;
+}
+#registery .line-2
+{
+    margin-top: 40%;
+    position: absolute;
+    margin-left: 22%;
+}
+#rsv
+{
+    position: relative;
+}
+#rsv .sub
+{
+    background: linear-gradient(rgba(223, 200, 132, 0.6), rgba(223, 200, 132, 0.7)), url('../images/car-1.jpg'), url(images/bg-3.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+}
+#rsv .sub h2
+{
+    letter-spacing: 8px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 30%;
+    position: absolute;
+}
+#rsv .sub h2 b 
+{
+    margin-left: 10%;
+}
+.btn-4
+{
+    border: 8px double black;
+    padding: 10px 60px;
+    color: black !important;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15%;
+    margin-left: 40%;
+}
+.btn-4:hover
+{
+    border: 5px solid black;
+}
+/* footer css */
+#footer
+{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+}
+#footer h1
+{
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+#footer h5
+{
+    word-spacing: 4px;
+}
+#footer span
+{
+    text-decoration: underline;
+}
+#rsvp
+{
+    background-color: #D6BB6E;
+}
+.gif
+{
+    float: inline-end;
+    margin-top: -40%;
+}
+
+::-webkit-scrollbar
+{
+    width: 18px; /* scrollbar width */
+    height: 10px; /* scrollbar height */
+    background-color: #333; /* scrollbar background color */
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #666; /* scrollbar thumb color */
+    border-radius: 10px; /* scrollbar thumb border radius */
+}

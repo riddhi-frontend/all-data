@@ -1,0 +1,350 @@
+body
+{
+    background-color: #110229 !important;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* HEADER JSX */
+.header
+{
+    opacity: 0.7;
+    width: 100%;
+    height: 600px;
+    background: url(../image/b-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.navbar
+{
+    background-color: #110229;
+    opacity: 0.8;
+}
+.head h1
+{
+    overflow-y: hidden !important;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.multicolor
+{
+    background-image: linear-gradient(45deg, rgb(83, 185, 200), rgb(104, 211, 188), rgb(74, 253, 74), rgb(106, 106, 240),  rgb(233, 177, 233));
+    background-clip: text;
+    color: transparent;
+}
+.nav li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 15px;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.media
+{
+    font-size: 25px;
+    overflow-y: hidden;
+    margin-top: -20px !important;
+}
+.media i
+{
+    padding-left: 20px;
+    color: white !important;
+}
+/* home */
+#home
+{
+    color: whitesmoke !important;
+}
+#home h4
+{
+    margin-left: 40%;
+    font-size: 20px;
+    overflow-y: hidden;
+}
+#home b
+{
+    font-weight: bold;
+    font-size: 23px;
+}
+#home h1
+{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    padding-left: 16%;
+    text-transform: uppercase;
+    position: absolute;
+    overflow-y: hidden;
+}
+#home img
+{
+    width: 80%;
+    height: 280px;
+    margin-top: 10%;
+    padding-left: 10%;
+}
+#home .btn
+{
+    padding: 8px 20px;
+    margin-top: 22%;
+    margin-left: 40%;
+    font-size: 20px;
+    background-color: white !important;
+    color: #110229 !important;
+    border-radius: 25px !important;
+}
+#home .btn:hover
+{
+    background-color: #110229 !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+/* about */
+.about
+{
+    width: 50%;
+    margin: auto;
+    background-color: white !important;
+    border-radius: 27px;
+    border: 2px dashed black;
+    padding: 40px;
+    margin-top: 5%;
+}
+.about h1
+{
+    color: #310577 !important;
+    font-size: 40px;
+    font-weight: bold;
+    overflow-y: hidden;
+}
+.about img
+{
+    border-radius: 50%;
+    width: 220px;
+    height: 250px;
+    margin-top: 20px;
+}
+.about img:hover
+{
+    transform: rotate(5deg);
+    width: 260px;
+    box-shadow: 0px 5px 10px black;
+    border: none;
+}
+.about .info p, h6
+{
+    color: #110229 !important;
+    overflow-y: hidden;
+}
+.about .info span
+{
+    color: #310577 !important;
+    font-weight: bolder;
+    font-size: 18px;
+}
+/* SERVICE */
+#services
+{
+    background-color: #110229;
+    color: white;
+}
+.service
+{
+    padding-left: 100px !important;
+}
+.service h1
+{
+    overflow-y: hidden;
+}
+.button
+{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.button:hover
+{
+    background-color: #110229;
+    border: 3px solid white;
+    color: white;
+}
+.html i
+{
+    font-size: 40px;
+    border: 1px solid blue;
+    padding: 2px;
+    margin-left: 40px;
+}
+.html h4
+{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.html p
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: justify;
+    padding-right: 50px;
+}
+/* work jsx */
+#work
+{
+    background-color: #110229;
+    padding: 20px;
+}
+.work h1
+{
+    overflow-y: hidden;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.work img
+{
+    width: 90%;
+    height: 550px;
+    margin-top: 50px;
+    border: 2px solid #310577;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 30px;
+}
+.work li
+{
+    margin-top: 4% !important;
+    margin-left: 250px;
+}
+.work a
+{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+/* .work li:hover
+{
+} */
+.work li a:hover
+{
+    color: white;
+    /* background-color: white; */
+    border: 5px solid #310577 !important;
+    border-radius: 8px;
+    padding: 8px;
+}
+/* contact */
+.contact
+{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    background-color: #F3FBFA;
+    border-radius: 20px;
+    margin-top: 80px;
+    border: 4px dotted #110229;
+}
+.contact h1
+{
+    overflow-y: hidden;
+    color: #110229;
+    padding-top: 10px;
+    margin-left: 6%;
+}
+.frm label
+{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 4%;
+}
+.contact input,.contact textarea
+{
+    width: 68%;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-bottom: 1px solid #110229;
+    background-color: gainsboro;
+    color: #110229 !important;
+}
+.btn-1, .btn-2
+{
+    width: 15%;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 30px !important;
+}
+.btn-2
+{
+    background-color: red;
+}
+.btn-1:hover
+{
+    background-color: white;
+    border: 2px solid #110229;
+    color: #110229;
+}
+.btn-2:hover:hover
+{
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+}
+.gif img
+{
+    width: 96%;
+    height: 360px;
+    border: #110229;
+    margin-left: -50px;
+}
+/* footer */
+.footer hr
+{
+    color: #F3FBFA;
+    margin-bottom: 60px;
+}
+.footer img
+{
+    width: 100%;
+    height: 320px;
+}
+.footer .contactus h1
+{
+    overflow-y: hidden;
+    font-size: 50px;
+}
+.footer .contactus ul li 
+{
+    padding-top:15px;
+    list-style-type: none;
+}
+.footer .contactus ul li i
+{
+    margin-right:15px;
+    overflow-y: hidden;
+    color: lightslategray !important;
+    font-size: 22px;
+}
+.footer .contactus ul li a
+{
+    color: lightslategray;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer .locate h1
+{
+    overflow-y: hidden;
+}

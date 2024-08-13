@@ -1,0 +1,14 @@
+form
+{
+  padding: 20px;
+}
+.modal-content h2
+{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.table td
+{
+  display: inline-flex;
+  padding-left: 10px;
+}

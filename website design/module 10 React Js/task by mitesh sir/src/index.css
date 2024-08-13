@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root
+{
+  --bg: #000;
+  --text: #000;
+  --hcolor: #C4BD39;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.about
+{
+  width: 100%;
+  height: 70vh;
+  background-color: var(--bg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+.about-content
+{
+  width: 100%;
+  height: 90vh;
+  rotate:  20deg;
+  position: absolute;
+  margin-top: -5%;
+}
+.about-con img
+{
+  position: absolute;
+  animation: rotets 3s linear 1ms infinite alternate forwards;
+  width: 140px ;
+  margin-left: 15%;
+  margin-top: 4%;
+}
+@keyframes rotets {
+  0% { margin-top: 6%; overflow-y: hidden !important; }
+}
+.about-content img
+{
+  width: 80%;
+  margin-left: 48%;
+  height: 560px;
+  overflow: hidden !important;
+  animation: rotete 2s linear 1ms infinite alternate forwards;
+}
+@keyframes rotete {
+  0% { margin-left: 50%; overflow-y: hidden !important; }
+}
+.text-section
+{
+  width: 57%;
+  margin-left: 26%;
+}
+.text-section h1
+{
+  color: white;
+  font-size: 40px;
+  margin-left: 36%;
+  text-align: center;
+  margin-top: 7%; 
+  animation: rotetes 3s linear 1ms infinite alternate forwards;
+  font-weight: bold;
+  position: absolute;
+}
+@keyframes rotetes {
+  0% { font-size: 47px; overflow-y: hidden !important; }
+}
+.text-section p
+{
+  color: white;
+  margin-top: 30px;
+  margin-top: 15%;
+  font-size: 20px;
+}
+
+/* CustomGlideSlider.css */
+.track
+{
+  width: 50%;
+}
+.custom-glide {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.custom-glide__track {
+  overflow: hidden;
+}
+
+.custom-glide__slides {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-glide__slide {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-glide__slide:hover {
+  transform: scale(1.05);
+}
+
+.slide-content {
+  padding: 20px;
+}
+
+.slide-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.slide-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.custom-glide__arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.custom-glide__arrow {
+  background: whitesmoke;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-glide__arrow:hover {
+  background: #555;
+}
+
+.custom-glide__arrow--left {
+  margin-right: auto;
+}
+
+.custom-glide__arrow--right {
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main
+{
+  padding: 50px 0;
+}
+.glide__slide
+{
+  overflow: hidden !important;
+  margin-top: 1%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card
+{
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.card img
+{
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+.glide_tittle
+{
+  overflow: hidden;
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.glide__arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.glide__arrow {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.glide__arrow--left {
+  position: absolute;
+  left: 0;
+}
+
+.glide__arrow--right {
+  position: absolute;
+  right: 0;
+}
+.glide__slide {
+  transform: scale(.9);
+  transition: all ease 0.1s !important;
+  background-color: transparent;
+}

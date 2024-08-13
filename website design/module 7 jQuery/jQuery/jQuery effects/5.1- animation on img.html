@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script>
+        $(document).ready(function()
+        {
+            $("button").click(function()
+                {                
+                    $("#imgg").css({"filter":"grayscale(100%)","transition":"7s ease all"});
+                })
+        })
+    </script>
+    <style>
+        button 
+        {
+            width: 290px;
+            height: 40px;
+            padding: 5px;
+            background-color: red;
+            color: white;
+            border: none;
+            margin-top: 1%;
+        }
+        img 
+        {
+            width: 300px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://th.bing.com/th/id/OIP.krkVtkrP_7xUiileqiE1qAHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.4&pid=1.7" id="imgg">
+    <br>
+    <button type="button">Click me</button> 
+</body>
+</html>

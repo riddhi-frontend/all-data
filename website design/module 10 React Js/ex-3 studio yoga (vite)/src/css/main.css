@@ -1,0 +1,372 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header
+{
+    width: 100%;
+    background-color: #ACD3F2;
+    color: #7C9EB9;
+    border-bottom: 2px solid #7C9EB9;
+    padding: 15px;
+}
+.header h2
+{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.header .list
+{
+    margin-left: 170px !important;
+}
+/* home  */
+#home
+{
+    width: 100%;
+    height: 850px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 75% 87%, 0% 43%);
+    background-color: #ACD3F2;
+}
+.first img
+{
+    position: absolute;
+    height: 600px;
+    margin-top: -50%;
+    margin-left: 10%;
+}
+.first .para
+{
+    position: absolute;
+    margin-top: -45% !important;
+    margin-left: 50% !important;
+}
+.first .para h1
+{
+    font-size: 85px;
+    font-weight: 800;
+    margin-left: 0% !important;
+    letter-spacing: 2px;
+    color: #6D859E;
+}
+.first .para h5
+{
+    padding-top: 10px;
+    color: #83A1BB;
+}
+.first .para .fast
+{
+    font-style: italic;
+    color: #83A1BB;
+}
+.first .para button
+{
+    background-color: #50606D;
+    color: white;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+/* feahers css */
+.feachers p
+{
+    font-weight: bold;
+    color: #8198A8;
+    margin-top: 10% !important;
+    margin-left: 15% !important;
+}
+.balance
+{
+    font-size: 50px !important;
+    height: 120px !important;
+    width: 30%;
+    padding: 10px;
+    background-color: #ACD3F2;
+    color: white;
+    border-radius: 50%;
+    margin-left: 38%;
+    margin-top: -10%;
+}
+.heading
+{
+    margin-top: 15% !important;
+    margin-left: 5%;
+}
+.heading h4
+{
+    font-weight: 400;
+    color: #8198A8;
+}
+.heading h2
+{
+    font-weight: 600;
+    color: #455765;
+}
+.heading hr, .headingy hr
+{
+    width: 25%;
+    border: 2px solid #060606 !important;
+    margin-top: 3% !important;
+}
+/* lifestyle */
+.lifestyle-1
+{
+    width: 100%;
+    height: 800px;
+    clip-path: polygon(0 63%, 100% 0, 100% 100%, 0 100%);
+    background-color: #ACD3F2;
+}
+.subls
+{
+    margin-left: 3%;
+    margin-top: -2%;
+}
+.subls img
+{
+    position: absolute;
+    height: 750px;
+    width: 45%;
+    margin-top: -47%;
+    margin-left: -5%;
+}
+.subls h2
+{
+    position: absolute;
+    margin-top: -39% !important;
+    margin-left: 8%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #455765;
+}
+.subls h4
+{
+    position: absolute;
+    margin-top: -35% !important;
+    margin-left: 8%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #7C96AC;
+}
+.subls p
+{
+    position: absolute;
+    margin-top: -32% !important;
+    margin-left: 8%;
+    color: #716368;
+    font-size: 19px;
+}
+.subls button
+{
+    font-style: italic;
+    position: absolute;
+    color: white;
+    background-color: #51616E;
+    border: none;
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    margin-top: -15% !important;
+    margin-left: 8%;
+}
+.lifestyle-2
+{
+    width: 100%;
+    height: 1000px;
+    clip-path: polygon(0 0, 100% 1%, 100% 45%, 0 100%);
+    background-color: #ACD3F2;
+    margin-top: -3%;
+}
+.lifestyle-2 h4
+{
+    margin-left: 62%;
+    margin-top: 7% !important;
+    color: #7291A8;
+    position: absolute;
+}
+.lifestyle-2 h1
+{
+    text-align: end;
+    margin-right: 12%;
+    margin-left: 46%;
+    margin-top: 10%;
+    font-size: 32px;
+    font-weight: bold;
+    color: #455765;
+    position: absolute;
+}
+.lifestyle-2 hr
+{
+    width: 19%;
+    border: 1px solid black;
+    margin-left: 60%;
+    margin-top: 16% !important;
+    position: absolute;
+}
+.infoi img
+{
+    margin-left: 10%;
+    height: 580px;margin-top: 10%;
+    position: absolute;
+}
+.info
+{
+    margin-left: 55%;
+    margin-top: 7%;
+    position: absolute;
+}
+.info h2
+{
+    margin-top: 22% !important;
+    font-size: 34px;
+    font-weight: bold;
+    color: #455765;
+    position: absolute;
+}
+.lifestyle-2 h5
+{
+    margin-left: 21% !important;
+    margin-top: 30% !important;
+    font-size: 22px;
+    color: #7391A8;
+    font-weight: bold;
+    position: absolute;
+}
+.parai
+{
+    text-align: end;
+    margin-top: -35% !important;
+    margin-left: 57% !important; 
+    font-size: 16px;
+    position: absolute;
+}
+.btn-4
+{
+    font-style: italic;
+    position: absolute;
+    color: white;
+    background-color: #51616E;
+    border: none;
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    margin-top: -22% !important;
+    margin-left: 72%;
+}
+.slide
+{
+    padding: 10px;
+    margin-top: -14%;
+    margin-left: 11%;
+    position: absolute;
+}
+.slide img
+{
+    height: 320px !important;
+}
+#yoga, #get
+{
+    margin-top: 18%;
+    margin-left: 13%;
+}
+.headingy h4
+{
+    color: #8CBDDF !important;
+    font-weight: bold;
+}
+.headingy h2
+{
+    color: #455765 !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+}
+.cards, .cards2, .cards3
+{
+    margin-top: 3%;
+    margin-left: 0%;
+    width: 30%;
+}
+.number
+{
+    color: #ADD4F4;
+    font-size: 150px !important;
+    font-weight: 700;
+}
+.tittle
+{
+    color:#455765;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: -28%;
+    margin-left: 0.5%;
+}
+.cards p, .cards2 p, .cards3 p
+{
+    color: #7C7C84;
+    font-style: italic;
+}
+.arrow
+{
+    color: #ADD4F4;
+    font-size: 100px;
+    margin-left: 70%;
+}
+#get .number
+{
+    color: #ADD4F4;
+    font-size: 80px !important;
+    font-weight: 700;
+}
+#get .tittle
+{
+    color:#455765;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: -13%;
+    margin-left: 14%;
+}
+/* footer */
+#footer
+{
+    background-color: #292F33;
+    color: white;
+}
+.border
+{
+    margin-left: 10%;
+}
+.footer
+{
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 100px;
+}
+.footer h6
+{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.menu
+{
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.menu .fa
+{
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.temp
+{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+span
+{
+    text-decoration: underline;
+    color: aqua;
+}
